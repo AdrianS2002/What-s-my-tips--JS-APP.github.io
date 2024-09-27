@@ -20,6 +20,7 @@ h1 {
     margin-bottom: 10px;
     background: linear-gradient(to right, #41ab03, #c6bd04, #a90606);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-family: 'Poppins';
 }
