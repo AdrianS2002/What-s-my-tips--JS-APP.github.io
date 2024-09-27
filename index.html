@@ -18,7 +18,7 @@
         <div class="container">
             <form >
                 <label for="bill">Bill amount:</label>
-                <input type="text" name="bill" id="bill" required>
+                <input type="text" name="bill" id="bill">
                 
                 <label for="tip">Tip percentage:</label>
                 <div id="rad">
@@ -36,10 +36,10 @@
                 
 
                 <label for="total">Total:</label>
-                <input type="text" name="total" id="total">
+                <input type="text" name="total" id="total" readonly>
                 <div id="sub">   
-                    <input type="submit" id="submit" value="Calculate">
-                    <input type="reset" id="reset" value="Reset">
+                    <button type="button" id="submit">Calculate</button>
+                    <button type="reset" id="reset">Reset</button>
                 </div>
                 
             </form>
