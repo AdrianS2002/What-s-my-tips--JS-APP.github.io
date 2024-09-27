@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's my tips?</title>
+    <link rel = "icon" href = "flying-money.png" type = "png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1> What's my tips?</h1>
+
+        <div class="container">
+            <form >
+                <label for="bill">Bill amount:</label>
+                <input type="text" name="bill" id="bill" required>
+                
+                <label for="tip">Tip percentage:</label>
+                <div id="rad">
+                    <input type="radio" name="tip" value="nu" class="radio">nu las bacsis <br>
+                    <input type="radio" name="tip" value="5" class="radio">5% <br>
+                    <input type="radio" name="tip" value="10" class="radio">10% <br>
+                    <input type="radio" name="tip" value="15" class="radio">15% <br>
+                    
+                </div>
+                <label for="othersum">Other:</label>
+                <input type="text" name="othersum" id="othersum" class="radio">
+                <select name="val" id="val">
+                    <option value="%">%</option>
+                    <option value="RON">RON</option>
+                </select> <br>
+
+                <label for="total">Total:</label>
+                <input type="text" name="total" id="total">
+                <div id="sub">   
+                    <input type="submit" id="submit" value="Calculate">
+                    <input type="reset" id="reset" value="Reset">
+                </div>
+                
+            </form>
+
+        </div>
+</body>
+</html>
