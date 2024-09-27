@@ -83,8 +83,7 @@ select {
 }
 
 
-
-input[type="submit"] {
+#submit {
     padding: 10px 20px;
     margin-top: 20px;
     border: 1px solid #3cff00;
@@ -93,11 +92,11 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+#submit:hover {
     background-color: #3cff00;
 }
 
-input[type="reset"] {
+#reset {
     padding: 10px 20px;
     margin-top: 20px;
     border: 1px solid #ff0000;
@@ -106,7 +105,7 @@ input[type="reset"] {
     cursor: pointer;
 }
 
-input[type="reset"]:hover {
+#reset:hover {
     background-color: #ff0000;
 }
 
