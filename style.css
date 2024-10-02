@@ -109,6 +109,18 @@ select {
     background-color: #ff0000;
 }
 
+#randomPicker{
+    padding: 10px 20px;
+    margin-top:20px;
+    border: 1px solid #00a6ff;
+    border-radius: 4px;
+    background-color: #074779;
+    cursor: pointer;
+}
+
+#randomPicker:hover{
+    background-color: #00a6ff;
+}
 
 #total {
     color: #3cff00;
@@ -120,6 +132,7 @@ select {
     display: flex;
     justify-content: space-between;
 }
+
 
 @media (max-width: 778px) {
     .container {
