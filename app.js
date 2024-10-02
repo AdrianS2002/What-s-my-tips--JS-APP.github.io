@@ -90,7 +90,7 @@ payerField.addEventListener("keydown", (event) =>{
 })
 
 
-
+const personLabel = document.getElementById('personLabel');
 
 btnReset.addEventListener('click',()=>{
     bill.value ='';
@@ -104,7 +104,7 @@ btnReset.addEventListener('click',()=>{
     personsAtTheTable=[];
     payerField.value='';
     errorMessage.textContent='';
-
+    personLabel.textContent='Persons at the table: ';
 });
 
 const randomPayerBtn = document.getElementById("randomPicker");
@@ -121,6 +121,9 @@ randomPayerBtn.addEventListener('click', ()=>{
         payerField.value=randomPerson(personsAtTheTable)
         payerField.style.color = 'blue'
         payerField.style.fontWeight = 'bold'
+        personLabel.textContent='The payer is:'
+        personLabel.style.color = 'blue'
+        personLabel.style.fontWeight = 'bold'
     }
 })
 
