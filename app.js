@@ -105,6 +105,7 @@ btnReset.addEventListener('click',()=>{
     payerField.value='';
     errorMessage.textContent='';
     personLabel.textContent='Persons at the table: ';
+    personLabel.style.color = 'black'
 });
 
 const randomPayerBtn = document.getElementById("randomPicker");
